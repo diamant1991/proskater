@@ -1,0 +1,59 @@
+
+/* This is the moving lens square underneath the mouse pointer. */
+.mousetrap {
+	cursor: url(../images/icon_tool_zoom.png), pointer !important;
+}
+#popup-clode-zoom .mousetrap {
+	cursor: url(../images/pointer_next.png), pointer !important;
+}
+#popup-clode-zoom .cloud-zoom img {
+	visibility: hidden;
+}
+.cloud-zoom-lens {
+	background-color:#fff;
+	cursor:move;
+}
+#size-gallery .mousetrap {
+	cursor: pointer !important;
+}
+/* This is for the title text. */
+.cloud-zoom-title {
+	font-family:Arial, Helvetica, sans-serif;
+	position:absolute !important;
+	background-color:#000;
+	color:#fff;
+	padding:3px;
+	width:100%;
+	text-align:center;	
+	font-weight:bold;
+	font-size:10px;
+	top:0px;
+}
+
+/* This is the zoom window. */
+.cloud-zoom-big {
+	overflow:hidden;
+}
+
+/* This is the loading message. */
+.cloud-zoom-loading {
+	display: none !important;
+	color: white;
+	top: 50%;
+	background: url(images/ajax_loading.gif );
+	position: absolute;
+	left: 50%;
+	width: 32px;
+	height: 32px;
+	margin: -16px;
+}
+
+.image-gallery.col1 #cloud-zoom-big {
+	top: -19px !important;
+	left: 337px !important;
+}
+
+.image-gallery.popup-image-gallery #cloud-zoom-big {
+	top: 0 !important;
+	left: 0 !important;
+}
