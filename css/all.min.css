@@ -1701,6 +1701,9 @@ div.soc-buttons{padding-bottom:15px;height:57px}
    width: 10000px; 
    position: relative; 
 }
+#mens, #women{
+    display: none;
+}
 .other-color-holder .title{text-transform:uppercase;font-size:14px;color:#000;letter-spacing:.04em}
 .other-color-slider{position:relative;width:450px;height:72px;overflow:hidden;margin:10px 0}
 .aside .other-color-slider{width:290px}
