@@ -2031,3 +2031,49 @@ display: block;
     font-size: 15px;
     font-family:'Casper_R';
 }
+.my-bookings{
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 12px;
+    color: #000;
+    font-family:'Casper_R';
+}
+.red-link{
+    font-size: 14px;
+    color: #da2128;
+    font-family: 'Casper_B';
+    text-decoration: underline;
+}
+.other-menu ul li{
+    list-style: none;
+    font-size: 14px;
+    line-height: 2;
+    font-family: 'Casper_B';
+}
+    .other-menu ul{
+        padding-left: 0;
+    }
+.dop-sidebar{
+    padding-top: 15px !important;
+}
+    .other-menu ul li a{
+        color: #999;
+        text-decoration: none;
+    }
+        .other-menu ul li a:hover,.other-menu ul li a.active{
+            color: #000;
+        }
+.other-menu{
+    border-bottom: 1px solid #999;
+    padding-bottom: 20px;
+}
+.favorites-popup-tovar{
+    padding-bottom: 65px;
+}
+.favorites-head{
+    margin-bottom: 25px;
+    padding: 25px 20px !important;
+}
+    .favorites-head h1{
+        margin: 0 !important;
+    }
