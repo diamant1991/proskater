@@ -635,7 +635,7 @@ textarea{display:inline-block;vertical-align:top;-moz-box-sizing:border-box;-web
 .image-gallery .gallery li:hover>.zoomer{display:block}
 #header .holder{position:relative;z-index:5}
 @media screen and (max-width:1400px) {
-#wrapper{max-width:1030px;width:1030px}
+#wrapper{max-width:1030px;width:1030px;padding: 0;}
 body{min-width:1040px}
 .scroll-gallery .gallery > li{margin:0 12px}
 .scroll-gallery-4 .gallery > li{margin:0 1px}
