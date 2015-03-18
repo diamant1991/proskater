@@ -1,0 +1,68 @@
+#slct{
+	display: inline-block;
+	font-size: 14px;
+	font-family: 'Casper_R';
+	margin-right: 10px;
+}
+/*	=	Select */
+.slct {
+	display: block;
+	border: 1px solid #ccc;
+	width: 285px;
+	padding: 4px 15px 4px 10px;
+	color: #666666;
+	overflow: hidden;
+	white-space:nowrap;
+	text-overflow: ellipsis;
+	-o-text-overflow: ellipsis;
+	background: url(../images/drop.png)no-repeat 95%;	
+}
+
+.drop {
+	margin: 0;
+	padding: 0;
+	width: 310px;
+	border: 1px solid #ccc;
+	border-top: none;
+	display: none;
+	position: absolute;
+	background: #fff;
+}
+.drop li {
+	list-style: none;
+	border-top: 1px dotted #e8e8e8;
+	cursor: pointer;
+	display: block;
+	color: #666666;
+	padding: 4px 15px 4px 10px;
+}
+.drop li:hover {
+	background-color: #e8e8e8;
+	color: #222;
+}
+#slct a{
+	text-decoration: none;
+	color: #666666;
+}
+
+	.day .slct{
+		width: 25px;
+		background-position: 85%;
+	}
+		.day .drop{
+			width: 50px;
+		}
+	.month .slct{
+		width: 65px;
+		background-position: 90%;
+	}
+	.month .drop{
+		width: 90px
+	}
+	.year .slct{
+		width: 35px;
+		background-position: 85%;
+	}
+	.year .drop{
+		width: 60px;
+	}
